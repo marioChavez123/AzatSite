@@ -1100,7 +1100,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
-
+.border-dark {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
 .border-transparent {
   border-color: transparent;
 }
@@ -1120,9 +1123,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-color: rgb(48 86 211 / var(--tw-border-opacity));
 }
 
-.border-\[\#D4DEFF\] {
+.border-\[\#FFE01B\] {
   --tw-border-opacity: 1;
-  border-color: rgb(212 222 255 / var(--tw-border-opacity));
+  border-color: rgb(255 224 27 / var(--tw-border-opacity));
 }
 
 .border-\[\#F3F4FE\] {
@@ -1149,9 +1152,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 86 211 / var(--tw-bg-opacity));
+  background-color: rgb(255 224 27 / var(--tw-bg-opacity));
 }
-
+.bg-\[\#FFE01B \] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 224 27 / var(--tw-bg-opacity));
+}
 .bg-\[\#f5f8ff\] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 248 255 / var(--tw-bg-opacity));
@@ -1215,7 +1221,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-opacity-20 {
   --tw-bg-opacity: 0.2;
 }
-
+.bg-opacity-90 {
+  --tw-bg-opacity: 0.9;
+}
 .bg-opacity-5 {
   --tw-bg-opacity: 0.05;
 }
@@ -1235,7 +1243,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .from-primary {
-  --tw-gradient-from: #3056d3;
+  --tw-gradient-from: #FFE01B;
   --tw-gradient-stops: var(--tw-gradient-from),
     var(--tw-gradient-to, rgb(48 86 211 / 0));
 }
@@ -1244,8 +1252,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-gradient-to: transparent;
 }
 
-.to-\[\#179BEE\] {
-  --tw-gradient-to: #179bee;
+.to-\[\#f6d365\] {
+  --tw-gradient-to: #f6d365;
 }
 
 .fill-current {
@@ -1585,7 +1593,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(48 86 211 / var(--tw-text-opacity));
+  color: rgb(255 224 27 / var(--tw-text-opacity));
 }
 
 .text-\[\#cdced6\] {
@@ -1780,7 +1788,7 @@ body {
 
 .sticky #navbarCollapse li .ud-menu-scroll.active {
   --tw-text-opacity: 1;
-  color: rgb(48 86 211 / var(--tw-text-opacity));
+  color: rgb(255 224 27 / var(--tw-text-opacity));
   opacity: 1;
 }
 
@@ -1794,12 +1802,12 @@ body {
   color: rgb(48 86 211 / var(--tw-text-opacity));
   opacity: 1;
 }
-
+/*CONTACT US BUTTON*/
 .sticky .signUpBtn {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 86 211 / var(--tw-bg-opacity));
+  background-color: rgb(255 224 27 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .sticky .signUpBtn:hover {
@@ -1902,7 +1910,7 @@ body {
 
 .hover\:bg-primary:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(48 86 211 / var(--tw-bg-opacity));
+  background-color: rgb(255 224 2 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-dark:hover {
@@ -1920,7 +1928,7 @@ body {
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(48 86 211 / var(--tw-text-opacity));
+  color: rgb(255 224 27 / var(--tw-text-opacity));
 }
 
 .hover\:text-dark:hover {
